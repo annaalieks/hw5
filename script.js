@@ -91,4 +91,5 @@ console.log(celine1);
 console.log(celine2);
 console.log(prada1);
 console.log(prada2);
+console.log(chanel1);
 console.log(chanel2);

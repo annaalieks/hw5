@@ -51,7 +51,7 @@ class Prada extends Bags {
     }
     costs = () => console.log(`The price of item ${this.#productCode} is ${this.price}`);
     isShipped = () => console.log(`This item is shipped worldwide`);
-    isItBag = () => console.log(`This bag is best-seller`);
+    isBestSeller = () => console.log(`This bag is best-seller`);
 }
 
 class Chanel extends Bags {
@@ -81,7 +81,7 @@ hermes2.handMade();
 celine1.isValuable();
 celine2.isShipped();
 prada1.producedBy();
-prada2.isItBag();
+prada2.isBestSeller();
 chanel1.costs();
 chanel2.isVintage();
 
